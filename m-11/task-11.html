@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<title>task-11</title>
+	<style>
+     /* reset */
+*	{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+}	
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p{
+	text-align: center;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+h2{
+	text-align: center;
+}
+
+
+/* head			 */
+.hd{
+	background-color: #9dD4DA;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+.hd-container1{
+	flex: 1;
+	color: #fff;
+	font-size: 1.5rem;
+	text-align: center;
+}
+.hd-container2{
+	flex: 5;
+	color: #fff;
+	text-align: center;
+}
+
+
+/* body */
+.bd{
+	margin-left: auto;
+	margin-right: auto;
+}
+ul{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+li{
+	text-align: center;
+}
+
+.bear{
+    width: 100%;
+}
+.img-tab{
+   width: 100%;
+}
+.img-subfiled{
+	width: 100%
+}
+.bd-section1{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: centr;
+	justify-content: space-between;
+	margin: 20px;
+}
+.img-mod{
+	width: 33.333333%;
+	height: 33.33333%;
+}
+.bd-section1-child{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: centr;
+	justify-content: space-between;	
+	padding: 20px;
+}
+
+.ft-articl{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: centr;
+	justify-content: space-between;	
+	padding: 20px;
+}
+.img-articl{
+	width: 50%;
+}
+.ft-articl-child{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ft-article2-imgs{
+    display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.img-articl2{
+	width: 33.33333%;
+}
+
+	</style>
+</head>
+<body>
+<div class="wrap">
+	<div class="hd">
+		<div class="hd-container1"><a>返回</a></div>
+		<div class="hd-container2"><h1>这是标题</h1></div>
+	</div>
+	<div class="bd">
+	    <nav class="bd-nav">
+		    <ul>
+		    	<li>导航</li>
+		    	<li>导航</li>
+		    	<li>导航</li>
+		    	<li>导航</li>
+		    	<li>导航</li>
+		    </ul>
+		</nav>
+		<div class="bd-img-bear">
+			<img src="task-11-image/bear.png" alt="bear" class="bear">
+		</div>
+		<div class="bd-logo">
+				<ul>
+					<li>
+						<span><img src="task-11-image/tab.png" alt="tab" class="img-tab"></span>
+						<p>标签</p>
+					</li>
+					<li>
+						<span><img src="task-11-image/tab.png" alt="tab" class="img-tab"></span>
+						<p>标签</p>
+					</li>
+					<li>
+						<span><img src="task-11-image/tab.png" alt="tab" class="img-tab"></span>
+						<p>标签</p>
+					</li>
+					<li>
+						<span><img src="task-11-image/tab.png" alt="tab" class="img-tab"></span>
+						<p>标签</p>
+					</li>
+					<li>
+						<span><img src="task-11-image/tab.png" alt="tab" class="img-tab"></span>
+						<p>标签</p>
+					</li>
+				</ul>
+		</div>
+		<div class="bd-subfiled">
+			<ul>
+				<li>
+					<span><img src="task-11-image/col-1.png" alt="col-1" class="img-subfiled"></span>
+					<h2>分栏一</h2>
+					<h3>分栏小标题</h3>
+				</li>
+				<li>
+					<span><img src="task-11-image/col-2.png" alt="col-2" class="img-subfiled"></span>
+					<h2>分栏一</h2>
+					<h3>分栏小标题</h3>
+				</li>
+				<li>
+					<span><img src="task-11-image/col-3.png" alt="col-3" class="img-subfiled"></span>
+					<h2>分栏一</h2>
+					<h3>分栏小标题</h3>
+				</li>
+			</ul>
+		</div>
+		<section>
+			<div><span>模块一</span></div>
+			<div class="bd-section">
+				<div class="bd-section1">
+					<img src="task-11-image/mod.png" alt="mod" class="img-mod">
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>
+						
+					</div>
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>
+						
+					</div>
+				</div>
+				<div class="bd-section1">
+					<img src="task-11-image/mod.png" alt="mod" class="img-mod">
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>				
+					</div>
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>				
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div><span>模块二</span></div>
+			<div class="bd-section">
+				<div class="bd-section1">
+					<img src="task-11-image/mod.png" alt="mod" class="img-mod">
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>
+					</div>
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>
+					</div>
+				</div>
+				<div class="bd-section1">
+					<img src="task-11-image/mod.png" alt="mod" class="img-mod">
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>
+					</div>
+					<div class="bd-section1-child">
+						<p>这是文案</p>
+						<p>这是文案</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="ft">
+		<div class="ft-articl">
+			<img src="task-11-image/col-1.png" alt="col-1" class="img-articl ft-articl-child">
+			<div class="ft-articl-child">
+				<h2>这是文章标题字号是22号的文章标题</h2>
+				<p class="label">文章来源&nbsp6分钟前</p>
+			</div>
+		</div>
+		<div class="ft-articl">
+			<img src="task-11-image/col-2.png" alt="col-2" class="img-articl ft-articl-child">
+			<div class="ft-articl-child">
+				<h2>这是文章标题字号</h2>
+				<p class="label">文章来源&nbsp7分钟前</p>
+			</div>
+		</div>
+		<div class="ft-article2">
+			<div class="ft-articl2-child"><h2>这也是文章标题字号是22的文章标题</h2></div>
+			<div class="ft-article2-imgs ft-articl2-child">
+				<img src="task-11-image/col-3.png" alt="col-3" class="img-articl2">
+				<img src="task-11-image/col-3.png" alt="col-3" class="img-articl2">
+				<img src="task-11-image/col-3.png" alt="col-3" class="img-articl2">
+			</div>
+			<p class="label ft-articl2-child">文章来源&nbsp7分钟前</p>
+		</div>
+	</div>
+</div>	
+</body>
+</html>
